@@ -1,6 +1,6 @@
 # wiki_beam.sh
 
-A tiny script that downloads any wikipedia article as a plain text file. Generated text files may at the moment contain some css code. Written in bash and regex. 
+A tiny script that downloads any wikipedia article as a plain text file. Generated text files may at the moment contain some unwanted content (including css code). Written in bash and regex. 
 
 ### General use:
 
