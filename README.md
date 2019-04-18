@@ -27,6 +27,6 @@ Saved as en-United_States.txt!
 ```
 2.
 ```
->./wiki_beam.sh sv Sweden
-Saved as sv-Sweden.txt!
+>./wiki_beam.sh sv Sverige
+Saved as sv-Sverige.txt!
 ```
