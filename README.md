@@ -7,7 +7,7 @@ A tiny script that downloads any wikipedia article as a plain text file. Generat
 Run with:
 
 ```
-./wiki_beam.sh <language-code> <article-name>
+>./wiki_beam.sh <language-code> <article-name>
 ```
 
 The *language code* (1) and the *article name* (2) can be extracted from two parts of the URL respectively: 
@@ -22,11 +22,11 @@ Language codes can also be found [here](https://meta.wikimedia.org/wiki/List_of_
 
 1.
 ```
-./wiki_beam.sh en United_States
+>./wiki_beam.sh en United_States
 Saved as en-United_States.txt!
 ```
 2.
 ```
-./wiki_beam.sh sv Sweden
+>./wiki_beam.sh sv Sweden
 Saved as sv-Sweden.txt!
 ```
