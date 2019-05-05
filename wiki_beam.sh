@@ -12,5 +12,5 @@ html=${html%$stop2*}
 
 txt=$(echo $html | sed -e 's/<[^=]*=\"[^"]*"[^>]*> / /g' | sed -e 's/<[^>]*>//g' | sed -e 's/&#[0-9]*;//g' | sed -E 's/\.[^0-9]+[^ ]+ /  /g')
 
-echo $txt > "$1-$2.txt"
-echo "Saved as $1-$2.txt!"
+echo $txt
+
