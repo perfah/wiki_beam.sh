@@ -6,7 +6,7 @@ A tiny script that downloads any wikipedia article as a plain text file. Generat
 
 Run with:
 
-```
+```bash
 >./wiki_beam.sh <language-code> <article-name>
 ```
 
@@ -21,12 +21,13 @@ Language codes can also be found [here](https://meta.wikimedia.org/wiki/List_of_
 ### Examples:
 
 1.
-```
->./wiki_beam.sh en United_States
-Saved as en-United_States.txt!
+```bash
+>./wiki_beam.sh en United_States > us.txt
+>cat us.txt
+The United States of America (USA), commonly known as the United States...
 ```
 2.
-```
+```bash
 >./wiki_beam.sh sv Sverige
-Saved as sv-Sverige.txt!
+Valspråk:För Sverige i tiden[1] Nationalsång:”Du gamla, du fria...
 ```
