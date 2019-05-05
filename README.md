@@ -2,7 +2,7 @@
 
 A tiny script that downloads any wikipedia article as a plain text file. Generated text files may at the moment contain some unwanted content (including css code). Written in bash and regex. 
 
-### General use:
+## General use:
 
 Run with:
 
@@ -18,7 +18,7 @@ https://___1___.wikipedia.org/wiki/___2___
 
 Language codes can also be found [here](https://meta.wikimedia.org/wiki/List_of_Wikipedias).
 
-### Examples:
+## Examples:
 
 1.
 ```bash
@@ -30,4 +30,24 @@ The United States of America (USA), commonly known as the United States...
 ```bash
 >./wiki_beam.sh sv Sverige
 Valspråk:För Sverige i tiden[1] Nationalsång:”Du gamla, du fria...
+```
+## auto_beam.sh:
+
+This script automatically downloads (if found) a Wikipedia article with a title exactly equal to each word found in stdin.
+It can, for instance, be used to download vast amounts of plain text content related to some particular text. Works with compound words (of two stems) by looking up the corresponding article for consecutively neighboring words. (e.g. United Nations). Non-alphabetical characters are ignored.
+
+### General use:
+
+Run with:
+```bash
+>echo <text-file> | ./auto_beam.sh
+```
+
+### Example:
+1.
+```bash
+>cat LeePincombeWelshDocuments.txt | ./auto_beam.sh
+Saving en-national.txt!
+Saving en-the_national.txt!
+Skipping en-national_executive.txt!
 ```
