@@ -16,7 +16,7 @@ Both the *language code* (1) and the *article name* (2) can be extracted from pa
 https://___1___.wikipedia.org/wiki/___2___
 ```
 
-Language codes can also be found [here](https://meta.wikimedia.org/wiki/List_of_Wikipedias).
+Language codes can be found [here](https://meta.wikimedia.org/wiki/List_of_Wikipedias).
 
 ### Examples:
 
