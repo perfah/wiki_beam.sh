@@ -1,6 +1,6 @@
 # wiki_beam.sh
 
-A tiny script that downloads any wikipedia article as a plain text file. Generated text files may contain some unwanted content such as css-code. Written in bash and regex. 
+A tiny script that retrieves the content of any Wikipedia-article and outputs it to stdout. Generated text files may contain some unwanted content such as css-code in some cases. Written in bash and regex. A separate script called ```autobeam.sh``` is also provided to download articles (as files) which titles correspond to words from stdin.
 
 ### General use:
 
