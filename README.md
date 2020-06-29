@@ -10,7 +10,7 @@ Run with:
 >./wiki_beam.sh <language-code> <article-name>
 ```
 
-Both the *language code* (1) and the *article name* (2) can be extracted from part 1 and 2 of the URL respectively: 
+Both the *language code* (1) and the *article name* (2) can be extracted from part 1 and 2 of the Wikipedia page URL respectively: 
 
 ```
 https://___1___.wikipedia.org/wiki/___2___
