@@ -42,7 +42,7 @@ It can, for instance, be used to download vast amounts of plain text content rel
 
 Run with:
 ```bash
->echo <text-file> | ./auto_beam.sh
+>cat <text-file> | ./auto_beam.sh
 ```
 
 ### Example:
